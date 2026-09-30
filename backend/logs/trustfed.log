@@ -1,0 +1,639 @@
+2026-09-13 18:32:25 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-13 18:32:26 [INFO] TrustFed: Synthetic demo dataset generated with 500 records (10 fraud samples, 490 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:32:26 [INFO] TrustFed: Synthetic demo dataset generated with 200 records (4 fraud samples, 196 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:32:26 [INFO] TrustFed: Preprocessed dataset: 200 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:32:26 [INFO] TrustFed: Synthetic demo dataset generated with 500 records (10 fraud samples, 490 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:32:26 [INFO] TrustFed: Preprocessed dataset: 500 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:32:26 [INFO] TrustFed: Bank 1 assigned 160 samples (0.00% fraud ratio).
+2026-09-13 18:32:26 [INFO] TrustFed: Bank 2 assigned 136 samples (0.00% fraud ratio).
+2026-09-13 18:32:26 [INFO] TrustFed: Bank 3 assigned 27 samples (33.33% fraud ratio).
+2026-09-13 18:32:26 [INFO] TrustFed: Bank 4 assigned 24 samples (4.17% fraud ratio).
+2026-09-13 18:32:26 [INFO] TrustFed: Bank 5 assigned 153 samples (0.00% fraud ratio).
+2026-09-13 18:32:26 [INFO] TrustFed: Synthetic demo dataset generated with 300 records (6 fraud samples, 294 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:32:26 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:32:28 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 10/20 fraud labels to legitimate (rate=50%).
+2026-09-13 18:32:28 [WARNING] TrustFed: Bank 'bank_3' REJECTED/SUPPRESSED (Trust Score = 0.20 < Threshold 0.4)
+2026-09-13 18:32:28 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:32:28 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:36:55 [INFO] TrustFed: Starting TrustFed Comparative Experiment Suite...
+2026-09-13 18:36:55 [INFO] TrustFed: Running Experiment: Defense=fedavg_no_attack, Malicious=0...
+2026-09-13 18:36:55 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:36:55 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:36:55 [INFO] TrustFed: Bank 1 assigned 51 samples (0.00% fraud ratio).
+2026-09-13 18:36:55 [INFO] TrustFed: Bank 2 assigned 56 samples (0.00% fraud ratio).
+2026-09-13 18:36:55 [INFO] TrustFed: Bank 3 assigned 72 samples (0.00% fraud ratio).
+2026-09-13 18:36:55 [INFO] TrustFed: Bank 4 assigned 21 samples (9.52% fraud ratio).
+2026-09-13 18:36:55 [INFO] TrustFed: Bank 5 assigned 40 samples (7.50% fraud ratio).
+2026-09-13 18:36:55 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 51 transaction samples.
+2026-09-13 18:36:55 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 56 transaction samples.
+2026-09-13 18:36:55 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 72 transaction samples.
+2026-09-13 18:36:55 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 21 transaction samples.
+2026-09-13 18:36:55 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> NORMAL with 40 transaction samples.
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 1/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 2/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 3/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 4/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 5/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 6/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 7/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 8/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 9/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 10/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: Running Experiment: Defense=fedavg, Malicious=1...
+2026-09-13 18:36:56 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:36:56 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:36:56 [INFO] TrustFed: Bank 1 assigned 51 samples (0.00% fraud ratio).
+2026-09-13 18:36:56 [INFO] TrustFed: Bank 2 assigned 56 samples (0.00% fraud ratio).
+2026-09-13 18:36:56 [INFO] TrustFed: Bank 3 assigned 72 samples (0.00% fraud ratio).
+2026-09-13 18:36:56 [INFO] TrustFed: Bank 4 assigned 21 samples (9.52% fraud ratio).
+2026-09-13 18:36:56 [INFO] TrustFed: Bank 5 assigned 40 samples (7.50% fraud ratio).
+2026-09-13 18:36:56 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 51 transaction samples.
+2026-09-13 18:36:56 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 56 transaction samples.
+2026-09-13 18:36:56 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 72 transaction samples.
+2026-09-13 18:36:56 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 21 transaction samples.
+2026-09-13 18:36:56 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 40 transaction samples.
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 1/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 2/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 3/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:56 [INFO] TrustFed: --- ROUND 4/FEDAVG ---
+2026-09-13 18:36:56 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 5/FEDAVG ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 6/FEDAVG ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 7/FEDAVG ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 8/FEDAVG ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 9/FEDAVG ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 10/FEDAVG ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: Running Experiment: Defense=median, Malicious=1...
+2026-09-13 18:36:57 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:36:57 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:36:57 [INFO] TrustFed: Bank 1 assigned 51 samples (0.00% fraud ratio).
+2026-09-13 18:36:57 [INFO] TrustFed: Bank 2 assigned 56 samples (0.00% fraud ratio).
+2026-09-13 18:36:57 [INFO] TrustFed: Bank 3 assigned 72 samples (0.00% fraud ratio).
+2026-09-13 18:36:57 [INFO] TrustFed: Bank 4 assigned 21 samples (9.52% fraud ratio).
+2026-09-13 18:36:57 [INFO] TrustFed: Bank 5 assigned 40 samples (7.50% fraud ratio).
+2026-09-13 18:36:57 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 51 transaction samples.
+2026-09-13 18:36:57 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 56 transaction samples.
+2026-09-13 18:36:57 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 72 transaction samples.
+2026-09-13 18:36:57 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 21 transaction samples.
+2026-09-13 18:36:57 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 40 transaction samples.
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 1/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 2/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 3/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 4/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 5/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 6/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 7/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 8/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 9/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: --- ROUND 10/MEDIAN ---
+2026-09-13 18:36:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:57 [INFO] TrustFed: Running Experiment: Defense=trimmed_mean, Malicious=1...
+2026-09-13 18:36:57 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:36:57 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 1 assigned 51 samples (0.00% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 2 assigned 56 samples (0.00% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 3 assigned 72 samples (0.00% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 4 assigned 21 samples (9.52% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 5 assigned 40 samples (7.50% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 51 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 56 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 72 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 21 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 40 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 1/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 2/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 3/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 4/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 5/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 6/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 7/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 8/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0085 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 9/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0085 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 10/TRIMMED_MEAN ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0085 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed: Running Experiment: Defense=trustfed, Malicious=1...
+2026-09-13 18:36:58 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-13 18:36:58 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 1 assigned 51 samples (0.00% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 2 assigned 56 samples (0.00% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 3 assigned 72 samples (0.00% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 4 assigned 21 samples (9.52% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Bank 5 assigned 40 samples (7.50% fraud ratio).
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 51 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 56 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 72 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 21 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 40 transaction samples.
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 1/TRUSTFED ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 2/TRUSTFED ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 3/TRUSTFED ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 4/TRUSTFED ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed: --- ROUND 5/TRUSTFED ---
+2026-09-13 18:36:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:58 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed: --- ROUND 6/TRUSTFED ---
+2026-09-13 18:36:59 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed: --- ROUND 7/TRUSTFED ---
+2026-09-13 18:36:59 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed: --- ROUND 8/TRUSTFED ---
+2026-09-13 18:36:59 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed: --- ROUND 9/TRUSTFED ---
+2026-09-13 18:36:59 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed: --- ROUND 10/TRUSTFED ---
+2026-09-13 18:36:59 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.0083 | ASR: 100.00%
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_1 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-13 18:36:59 [INFO] TrustFed: Experiment results exported to 'C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\results\csv\experiment_results.csv'.
+2026-09-13 18:37:00 [INFO] TrustFed: Publication research graphs successfully saved in 'C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\results\graphs'.
+2026-09-14 16:28:34 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 16:28:39 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 16:28:42 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 16:28:50 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 16:47:54 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 16:47:58 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 16:49:55 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-14 16:49:55 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-14 16:49:55 [INFO] TrustFed: Bank 1 assigned 51 samples (0.00% fraud ratio).
+2026-09-14 16:49:55 [INFO] TrustFed: Bank 2 assigned 56 samples (0.00% fraud ratio).
+2026-09-14 16:49:55 [INFO] TrustFed: Bank 3 assigned 72 samples (0.00% fraud ratio).
+2026-09-14 16:49:55 [INFO] TrustFed: Bank 4 assigned 21 samples (9.52% fraud ratio).
+2026-09-14 16:49:55 [INFO] TrustFed: Bank 5 assigned 40 samples (7.50% fraud ratio).
+2026-09-14 16:49:55 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 51 transaction samples.
+2026-09-14 16:49:55 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 56 transaction samples.
+2026-09-14 16:49:56 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 72 transaction samples.
+2026-09-14 16:49:56 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 21 transaction samples.
+2026-09-14 16:49:56 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 40 transaction samples.
+2026-09-14 16:49:58 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 16:50:02 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 16:50:05 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-14 16:50:05 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-14 16:50:05 [INFO] TrustFed: Bank 1 assigned 51 samples (0.00% fraud ratio).
+2026-09-14 16:50:05 [INFO] TrustFed: Bank 2 assigned 56 samples (0.00% fraud ratio).
+2026-09-14 16:50:05 [INFO] TrustFed: Bank 3 assigned 72 samples (0.00% fraud ratio).
+2026-09-14 16:50:05 [INFO] TrustFed: Bank 4 assigned 21 samples (9.52% fraud ratio).
+2026-09-14 16:50:05 [INFO] TrustFed: Bank 5 assigned 40 samples (7.50% fraud ratio).
+2026-09-14 16:50:05 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 51 transaction samples.
+2026-09-14 16:50:05 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 56 transaction samples.
+2026-09-14 16:50:05 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 72 transaction samples.
+2026-09-14 16:50:05 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 21 transaction samples.
+2026-09-14 16:50:05 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 40 transaction samples.
+2026-09-14 16:50:09 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 16:50:13 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 16:50:13 [INFO] TrustFed: Loading cached demo dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-14 16:50:13 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-14 16:50:13 [INFO] TrustFed: Bank 1 assigned 51 samples (0.00% fraud ratio).
+2026-09-14 16:50:13 [INFO] TrustFed: Bank 2 assigned 56 samples (0.00% fraud ratio).
+2026-09-14 16:50:13 [INFO] TrustFed: Bank 3 assigned 72 samples (0.00% fraud ratio).
+2026-09-14 16:50:13 [INFO] TrustFed: Bank 4 assigned 21 samples (9.52% fraud ratio).
+2026-09-14 16:50:13 [INFO] TrustFed: Bank 5 assigned 40 samples (7.50% fraud ratio).
+2026-09-14 16:50:13 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 51 transaction samples.
+2026-09-14 16:50:14 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 56 transaction samples.
+2026-09-14 16:50:14 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 72 transaction samples.
+2026-09-14 16:50:14 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 21 transaction samples.
+2026-09-14 16:50:14 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 40 transaction samples.
+2026-09-14 16:50:18 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 16:50:22 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 17:01:07 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 17:01:12 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 17:02:07 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 17:02:12 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 17:10:33 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 17:10:38 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 17:12:53 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 17:12:58 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 17:13:27 [INFO] TrustFed: Starting TrustFed Comparative Experiment Suite...
+2026-09-14 17:13:27 [INFO] TrustFed: Running Experiment: Defense=fedavg_no_attack, Malicious=0...
+2026-09-14 17:13:27 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-14 17:13:30 [INFO] TrustFed: Loaded Real Kaggle Dataset: 25000 samples (492 real fraud cases, 24508 legitimate transactions).
+2026-09-14 17:13:30 [INFO] TrustFed: Preprocessed dataset: 25000 samples, 30 features. Positive class ratio: 0.0197
+2026-09-14 17:13:30 [INFO] TrustFed: Bank 1 assigned 779 samples (25.29% fraud ratio).
+2026-09-14 17:13:30 [INFO] TrustFed: Bank 2 assigned 5672 samples (0.00% fraud ratio).
+2026-09-14 17:13:30 [INFO] TrustFed: Bank 3 assigned 6390 samples (0.00% fraud ratio).
+2026-09-14 17:13:30 [INFO] TrustFed: Bank 4 assigned 6958 samples (0.00% fraud ratio).
+2026-09-14 17:13:30 [INFO] TrustFed: Bank 5 assigned 201 samples (99.00% fraud ratio).
+2026-09-14 17:13:30 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 779 transaction samples.
+2026-09-14 17:13:30 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 5672 transaction samples.
+2026-09-14 17:13:30 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 6390 transaction samples.
+2026-09-14 17:13:30 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 6958 transaction samples.
+2026-09-14 17:13:30 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> NORMAL with 201 transaction samples.
+2026-09-14 17:13:34 [INFO] TrustFed: --- ROUND 1/FEDAVG ---
+2026-09-14 17:13:34 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.4773 | ASR: 100.00%
+2026-09-14 17:13:34 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 17:13:35 [INFO] TrustFed: --- ROUND 2/FEDAVG ---
+2026-09-14 17:13:35 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.7759 | ASR: 100.00%
+2026-09-14 17:13:37 [INFO] TrustFed: --- ROUND 3/FEDAVG ---
+2026-09-14 17:13:37 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8188 | ASR: 100.00%
+2026-09-14 17:13:38 [INFO] TrustFed: --- ROUND 4/FEDAVG ---
+2026-09-14 17:13:38 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8272 | ASR: 100.00%
+2026-09-14 17:13:40 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 17:13:40 [INFO] TrustFed: --- ROUND 5/FEDAVG ---
+2026-09-14 17:13:40 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8757 | ASR: 100.00%
+2026-09-14 17:13:41 [INFO] TrustFed: --- ROUND 6/FEDAVG ---
+2026-09-14 17:13:41 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8924 | ASR: 100.00%
+2026-09-14 17:13:43 [INFO] TrustFed: --- ROUND 7/FEDAVG ---
+2026-09-14 17:13:43 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8885 | ASR: 100.00%
+2026-09-14 17:13:44 [INFO] TrustFed: --- ROUND 8/FEDAVG ---
+2026-09-14 17:13:44 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9080 | ASR: 100.00%
+2026-09-14 17:13:46 [INFO] TrustFed: --- ROUND 9/FEDAVG ---
+2026-09-14 17:13:46 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8984 | ASR: 100.00%
+2026-09-14 17:13:47 [INFO] TrustFed: --- ROUND 10/FEDAVG ---
+2026-09-14 17:13:47 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9009 | ASR: 100.00%
+2026-09-14 17:13:47 [INFO] TrustFed: Running Experiment: Defense=fedavg, Malicious=1...
+2026-09-14 17:13:47 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-14 17:13:49 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-14 17:13:50 [INFO] TrustFed: Loaded Real Kaggle Dataset: 25000 samples (492 real fraud cases, 24508 legitimate transactions).
+2026-09-14 17:13:51 [INFO] TrustFed: Preprocessed dataset: 25000 samples, 30 features. Positive class ratio: 0.0197
+2026-09-14 17:13:51 [INFO] TrustFed: Bank 1 assigned 779 samples (25.29% fraud ratio).
+2026-09-14 17:13:51 [INFO] TrustFed: Bank 2 assigned 5672 samples (0.00% fraud ratio).
+2026-09-14 17:13:51 [INFO] TrustFed: Bank 3 assigned 6390 samples (0.00% fraud ratio).
+2026-09-14 17:13:51 [INFO] TrustFed: Bank 4 assigned 6958 samples (0.00% fraud ratio).
+2026-09-14 17:13:51 [INFO] TrustFed: Bank 5 assigned 201 samples (99.00% fraud ratio).
+2026-09-14 17:13:51 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 779 transaction samples.
+2026-09-14 17:13:51 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 5672 transaction samples.
+2026-09-14 17:13:51 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 6390 transaction samples.
+2026-09-14 17:13:51 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 6958 transaction samples.
+2026-09-14 17:13:51 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 201 transaction samples.
+2026-09-14 17:13:52 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:13:52 [INFO] TrustFed: --- ROUND 1/FEDAVG ---
+2026-09-14 17:13:52 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.4780 | ASR: 100.00%
+2026-09-14 17:13:54 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:13:54 [INFO] TrustFed: --- ROUND 2/FEDAVG ---
+2026-09-14 17:13:54 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.7760 | ASR: 100.00%
+2026-09-14 17:13:55 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-14 17:13:55 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:13:55 [INFO] TrustFed: --- ROUND 3/FEDAVG ---
+2026-09-14 17:13:55 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8197 | ASR: 100.00%
+2026-09-14 17:13:57 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:13:57 [INFO] TrustFed: --- ROUND 4/FEDAVG ---
+2026-09-14 17:13:57 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8285 | ASR: 100.00%
+2026-09-14 17:13:58 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:13:58 [INFO] TrustFed: --- ROUND 5/FEDAVG ---
+2026-09-14 17:13:58 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8759 | ASR: 100.00%
+2026-09-14 17:14:00 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:00 [INFO] TrustFed: --- ROUND 6/FEDAVG ---
+2026-09-14 17:14:00 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8933 | ASR: 100.00%
+2026-09-14 17:14:01 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:01 [INFO] TrustFed: --- ROUND 7/FEDAVG ---
+2026-09-14 17:14:01 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8895 | ASR: 100.00%
+2026-09-14 17:14:02 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:03 [INFO] TrustFed: --- ROUND 8/FEDAVG ---
+2026-09-14 17:14:03 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9061 | ASR: 100.00%
+2026-09-14 17:14:04 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:04 [INFO] TrustFed: --- ROUND 9/FEDAVG ---
+2026-09-14 17:14:04 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8983 | ASR: 100.00%
+2026-09-14 17:14:05 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:06 [INFO] TrustFed: --- ROUND 10/FEDAVG ---
+2026-09-14 17:14:06 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9016 | ASR: 100.00%
+2026-09-14 17:14:06 [INFO] TrustFed: Running Experiment: Defense=median, Malicious=1...
+2026-09-14 17:14:06 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-14 17:14:08 [INFO] TrustFed: Loaded Real Kaggle Dataset: 25000 samples (492 real fraud cases, 24508 legitimate transactions).
+2026-09-14 17:14:08 [INFO] TrustFed: Preprocessed dataset: 25000 samples, 30 features. Positive class ratio: 0.0197
+2026-09-14 17:14:08 [INFO] TrustFed: Bank 1 assigned 779 samples (25.29% fraud ratio).
+2026-09-14 17:14:08 [INFO] TrustFed: Bank 2 assigned 5672 samples (0.00% fraud ratio).
+2026-09-14 17:14:08 [INFO] TrustFed: Bank 3 assigned 6390 samples (0.00% fraud ratio).
+2026-09-14 17:14:08 [INFO] TrustFed: Bank 4 assigned 6958 samples (0.00% fraud ratio).
+2026-09-14 17:14:08 [INFO] TrustFed: Bank 5 assigned 201 samples (99.00% fraud ratio).
+2026-09-14 17:14:08 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 779 transaction samples.
+2026-09-14 17:14:08 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 5672 transaction samples.
+2026-09-14 17:14:08 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 6390 transaction samples.
+2026-09-14 17:14:08 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 6958 transaction samples.
+2026-09-14 17:14:08 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 201 transaction samples.
+2026-09-14 17:14:10 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:10 [INFO] TrustFed: --- ROUND 1/MEDIAN ---
+2026-09-14 17:14:10 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.3532 | ASR: 100.00%
+2026-09-14 17:14:11 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:11 [INFO] TrustFed: --- ROUND 2/MEDIAN ---
+2026-09-14 17:14:11 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.7481 | ASR: 100.00%
+2026-09-14 17:14:13 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:13 [INFO] TrustFed: --- ROUND 3/MEDIAN ---
+2026-09-14 17:14:13 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8141 | ASR: 100.00%
+2026-09-14 17:14:14 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:14 [INFO] TrustFed: --- ROUND 4/MEDIAN ---
+2026-09-14 17:14:14 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8270 | ASR: 100.00%
+2026-09-14 17:14:15 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:16 [INFO] TrustFed: --- ROUND 5/MEDIAN ---
+2026-09-14 17:14:16 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8520 | ASR: 100.00%
+2026-09-14 17:14:17 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:17 [INFO] TrustFed: --- ROUND 6/MEDIAN ---
+2026-09-14 17:14:17 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8888 | ASR: 100.00%
+2026-09-14 17:14:18 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:18 [INFO] TrustFed: --- ROUND 7/MEDIAN ---
+2026-09-14 17:14:18 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9000 | ASR: 100.00%
+2026-09-14 17:14:20 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:20 [INFO] TrustFed: --- ROUND 8/MEDIAN ---
+2026-09-14 17:14:20 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9020 | ASR: 100.00%
+2026-09-14 17:14:21 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:21 [INFO] TrustFed: --- ROUND 9/MEDIAN ---
+2026-09-14 17:14:21 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9030 | ASR: 100.00%
+2026-09-14 17:14:23 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:23 [INFO] TrustFed: --- ROUND 10/MEDIAN ---
+2026-09-14 17:14:23 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8991 | ASR: 100.00%
+2026-09-14 17:14:23 [INFO] TrustFed: Running Experiment: Defense=trimmed_mean, Malicious=1...
+2026-09-14 17:14:23 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-14 17:14:25 [INFO] TrustFed: Loaded Real Kaggle Dataset: 25000 samples (492 real fraud cases, 24508 legitimate transactions).
+2026-09-14 17:14:25 [INFO] TrustFed: Preprocessed dataset: 25000 samples, 30 features. Positive class ratio: 0.0197
+2026-09-14 17:14:25 [INFO] TrustFed: Bank 1 assigned 779 samples (25.29% fraud ratio).
+2026-09-14 17:14:25 [INFO] TrustFed: Bank 2 assigned 5672 samples (0.00% fraud ratio).
+2026-09-14 17:14:25 [INFO] TrustFed: Bank 3 assigned 6390 samples (0.00% fraud ratio).
+2026-09-14 17:14:25 [INFO] TrustFed: Bank 4 assigned 6958 samples (0.00% fraud ratio).
+2026-09-14 17:14:25 [INFO] TrustFed: Bank 5 assigned 201 samples (99.00% fraud ratio).
+2026-09-14 17:14:25 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 779 transaction samples.
+2026-09-14 17:14:25 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 5672 transaction samples.
+2026-09-14 17:14:25 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 6390 transaction samples.
+2026-09-14 17:14:25 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 6958 transaction samples.
+2026-09-14 17:14:25 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 201 transaction samples.
+2026-09-14 17:14:26 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:27 [INFO] TrustFed: --- ROUND 1/TRIMMED_MEAN ---
+2026-09-14 17:14:27 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.2015 | ASR: 100.00%
+2026-09-14 17:14:28 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:28 [INFO] TrustFed: --- ROUND 2/TRIMMED_MEAN ---
+2026-09-14 17:14:28 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.7010 | ASR: 100.00%
+2026-09-14 17:14:29 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:29 [INFO] TrustFed: --- ROUND 3/TRIMMED_MEAN ---
+2026-09-14 17:14:29 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8005 | ASR: 100.00%
+2026-09-14 17:14:31 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:31 [INFO] TrustFed: --- ROUND 4/TRIMMED_MEAN ---
+2026-09-14 17:14:31 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8202 | ASR: 100.00%
+2026-09-14 17:14:32 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:32 [INFO] TrustFed: --- ROUND 5/TRIMMED_MEAN ---
+2026-09-14 17:14:32 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8270 | ASR: 100.00%
+2026-09-14 17:14:33 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:34 [INFO] TrustFed: --- ROUND 6/TRIMMED_MEAN ---
+2026-09-14 17:14:34 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8487 | ASR: 100.00%
+2026-09-14 17:14:35 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:35 [INFO] TrustFed: --- ROUND 7/TRIMMED_MEAN ---
+2026-09-14 17:14:35 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8792 | ASR: 100.00%
+2026-09-14 17:14:36 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:36 [INFO] TrustFed: --- ROUND 8/TRIMMED_MEAN ---
+2026-09-14 17:14:36 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9008 | ASR: 100.00%
+2026-09-14 17:14:38 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:38 [INFO] TrustFed: --- ROUND 9/TRIMMED_MEAN ---
+2026-09-14 17:14:38 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9041 | ASR: 100.00%
+2026-09-14 17:14:39 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:39 [INFO] TrustFed: --- ROUND 10/TRIMMED_MEAN ---
+2026-09-14 17:14:39 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9061 | ASR: 100.00%
+2026-09-14 17:14:39 [INFO] TrustFed: Running Experiment: Defense=trustfed, Malicious=1...
+2026-09-14 17:14:39 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-14 17:14:41 [INFO] TrustFed: Loaded Real Kaggle Dataset: 25000 samples (492 real fraud cases, 24508 legitimate transactions).
+2026-09-14 17:14:41 [INFO] TrustFed: Preprocessed dataset: 25000 samples, 30 features. Positive class ratio: 0.0197
+2026-09-14 17:14:41 [INFO] TrustFed: Bank 1 assigned 779 samples (25.29% fraud ratio).
+2026-09-14 17:14:41 [INFO] TrustFed: Bank 2 assigned 5672 samples (0.00% fraud ratio).
+2026-09-14 17:14:41 [INFO] TrustFed: Bank 3 assigned 6390 samples (0.00% fraud ratio).
+2026-09-14 17:14:41 [INFO] TrustFed: Bank 4 assigned 6958 samples (0.00% fraud ratio).
+2026-09-14 17:14:41 [INFO] TrustFed: Bank 5 assigned 201 samples (99.00% fraud ratio).
+2026-09-14 17:14:41 [INFO] TrustFed: Initialized Bank 1 (bank_1) -> NORMAL with 779 transaction samples.
+2026-09-14 17:14:41 [INFO] TrustFed: Initialized Bank 2 (bank_2) -> NORMAL with 5672 transaction samples.
+2026-09-14 17:14:41 [INFO] TrustFed: Initialized Bank 3 (bank_3) -> NORMAL with 6390 transaction samples.
+2026-09-14 17:14:41 [INFO] TrustFed: Initialized Bank 4 (bank_4) -> NORMAL with 6958 transaction samples.
+2026-09-14 17:14:41 [INFO] TrustFed: Initialized Bank 5 (bank_5) -> MALICIOUS with 201 transaction samples.
+2026-09-14 17:14:43 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:43 [INFO] TrustFed: --- ROUND 1/TRUSTFED ---
+2026-09-14 17:14:43 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.4616 | ASR: 100.00%
+2026-09-14 17:14:43 [INFO] TrustFed:   bank_1 -> Trust: 0.86 (Sim: 0.95, Hist: 0.95)
+2026-09-14 17:14:43 [INFO] TrustFed:   bank_2 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:43 [INFO] TrustFed:   bank_3 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:43 [INFO] TrustFed:   bank_4 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:43 [INFO] TrustFed:   bank_5 -> Trust: 0.88 (Sim: 0.95, Hist: 0.95)
+2026-09-14 17:14:44 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:44 [INFO] TrustFed: --- ROUND 2/TRUSTFED ---
+2026-09-14 17:14:44 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.7740 | ASR: 100.00%
+2026-09-14 17:14:44 [INFO] TrustFed:   bank_1 -> Trust: 0.73 (Sim: 0.98, Hist: 0.96)
+2026-09-14 17:14:44 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:44 [INFO] TrustFed:   bank_3 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:44 [INFO] TrustFed:   bank_4 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:44 [INFO] TrustFed:   bank_5 -> Trust: 0.73 (Sim: 0.98, Hist: 0.96)
+2026-09-14 17:14:46 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:46 [INFO] TrustFed: --- ROUND 3/TRUSTFED ---
+2026-09-14 17:14:46 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8193 | ASR: 100.00%
+2026-09-14 17:14:46 [INFO] TrustFed:   bank_1 -> Trust: 0.74 (Sim: 0.98, Hist: 0.97)
+2026-09-14 17:14:46 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:46 [INFO] TrustFed:   bank_3 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:46 [INFO] TrustFed:   bank_4 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:46 [INFO] TrustFed:   bank_5 -> Trust: 0.74 (Sim: 0.99, Hist: 0.97)
+2026-09-14 17:14:47 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:47 [INFO] TrustFed: --- ROUND 4/TRUSTFED ---
+2026-09-14 17:14:47 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8279 | ASR: 100.00%
+2026-09-14 17:14:47 [INFO] TrustFed:   bank_1 -> Trust: 0.73 (Sim: 0.97, Hist: 0.97)
+2026-09-14 17:14:47 [INFO] TrustFed:   bank_2 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:47 [INFO] TrustFed:   bank_3 -> Trust: 0.74 (Sim: 0.99, Hist: 1.00)
+2026-09-14 17:14:47 [INFO] TrustFed:   bank_4 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:47 [INFO] TrustFed:   bank_5 -> Trust: 0.73 (Sim: 0.97, Hist: 0.97)
+2026-09-14 17:14:48 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:48 [INFO] TrustFed: --- ROUND 5/TRUSTFED ---
+2026-09-14 17:14:48 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8748 | ASR: 100.00%
+2026-09-14 17:14:49 [INFO] TrustFed:   bank_1 -> Trust: 0.73 (Sim: 0.96, Hist: 0.97)
+2026-09-14 17:14:49 [INFO] TrustFed:   bank_2 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:49 [INFO] TrustFed:   bank_3 -> Trust: 0.74 (Sim: 0.99, Hist: 1.00)
+2026-09-14 17:14:49 [INFO] TrustFed:   bank_4 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:49 [INFO] TrustFed:   bank_5 -> Trust: 0.73 (Sim: 0.97, Hist: 0.97)
+2026-09-14 17:14:50 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:50 [INFO] TrustFed: --- ROUND 6/TRUSTFED ---
+2026-09-14 17:14:50 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8933 | ASR: 100.00%
+2026-09-14 17:14:50 [INFO] TrustFed:   bank_1 -> Trust: 0.74 (Sim: 0.98, Hist: 0.97)
+2026-09-14 17:14:50 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:50 [INFO] TrustFed:   bank_3 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:50 [INFO] TrustFed:   bank_4 -> Trust: 0.74 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:50 [INFO] TrustFed:   bank_5 -> Trust: 0.74 (Sim: 0.98, Hist: 0.97)
+2026-09-14 17:14:51 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:51 [INFO] TrustFed: --- ROUND 7/TRUSTFED ---
+2026-09-14 17:14:51 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8892 | ASR: 100.00%
+2026-09-14 17:14:51 [INFO] TrustFed:   bank_1 -> Trust: 0.74 (Sim: 0.99, Hist: 0.98)
+2026-09-14 17:14:51 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:51 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:51 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:51 [INFO] TrustFed:   bank_5 -> Trust: 0.74 (Sim: 1.00, Hist: 0.98)
+2026-09-14 17:14:52 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:53 [INFO] TrustFed: --- ROUND 8/TRUSTFED ---
+2026-09-14 17:14:53 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9068 | ASR: 100.00%
+2026-09-14 17:14:53 [INFO] TrustFed:   bank_1 -> Trust: 0.74 (Sim: 0.99, Hist: 0.98)
+2026-09-14 17:14:53 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:53 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:53 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:53 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 0.99)
+2026-09-14 17:14:54 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:54 [INFO] TrustFed: --- ROUND 9/TRUSTFED ---
+2026-09-14 17:14:54 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.8983 | ASR: 100.00%
+2026-09-14 17:14:54 [INFO] TrustFed:   bank_1 -> Trust: 0.74 (Sim: 0.99, Hist: 0.99)
+2026-09-14 17:14:54 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:54 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:54 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:54 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 0.99)
+2026-09-14 17:14:55 [INFO] TrustFed: Targeted Label Poisoning applied: Flipped 59/199 fraud labels to legitimate (rate=30%).
+2026-09-14 17:14:55 [INFO] TrustFed: --- ROUND 10/TRUSTFED ---
+2026-09-14 17:14:55 [INFO] TrustFed: Global F1: 0.0000 | Recall: 0.0000 | PR-AUC: 0.9016 | ASR: 100.00%
+2026-09-14 17:14:55 [INFO] TrustFed:   bank_1 -> Trust: 0.74 (Sim: 0.99, Hist: 0.99)
+2026-09-14 17:14:55 [INFO] TrustFed:   bank_2 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:55 [INFO] TrustFed:   bank_3 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:55 [INFO] TrustFed:   bank_4 -> Trust: 0.75 (Sim: 1.00, Hist: 1.00)
+2026-09-14 17:14:55 [INFO] TrustFed:   bank_5 -> Trust: 0.75 (Sim: 1.00, Hist: 0.99)
+2026-09-14 17:14:55 [INFO] TrustFed: Experiment results exported to 'C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\results\csv\experiment_results.csv'.
+2026-09-14 17:14:57 [INFO] TrustFed: Publication research graphs successfully saved in 'C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\results\graphs'.
+2026-09-17 19:41:17 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 19:41:18 [INFO] TrustFed: Synthetic demo dataset generated with 500 records (10 fraud samples, 490 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:41:18 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-17 19:41:21 [INFO] TrustFed: Loaded Real Kaggle Dataset: 1000 samples (492 real fraud cases, 508 legitimate transactions).
+2026-09-17 19:41:21 [INFO] TrustFed: Synthetic demo dataset generated with 200 records (4 fraud samples, 196 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:41:21 [INFO] TrustFed: Preprocessed dataset: 200 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 19:41:21 [INFO] TrustFed: Synthetic demo dataset generated with 500 records (10 fraud samples, 490 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:41:21 [INFO] TrustFed: Preprocessed dataset: 500 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 19:41:21 [INFO] TrustFed: Bank 1 assigned 160 samples (0.00% fraud ratio).
+2026-09-17 19:41:21 [INFO] TrustFed: Bank 2 assigned 136 samples (0.00% fraud ratio).
+2026-09-17 19:41:21 [INFO] TrustFed: Bank 3 assigned 27 samples (33.33% fraud ratio).
+2026-09-17 19:41:21 [INFO] TrustFed: Bank 4 assigned 24 samples (4.17% fraud ratio).
+2026-09-17 19:41:21 [INFO] TrustFed: Bank 5 assigned 153 samples (0.00% fraud ratio).
+2026-09-17 19:41:21 [INFO] TrustFed: Synthetic demo dataset generated with 300 records (6 fraud samples, 294 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:41:21 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 19:41:24 [INFO] TrustFed: Synthetic demo dataset generated with 100 records (2 fraud samples, 98 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:41:24 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-17 19:41:27 [INFO] TrustFed: Loaded Real Kaggle Dataset: 25000 samples (492 real fraud cases, 24508 legitimate transactions).
+2026-09-17 19:41:27 [INFO] TrustFed: Preprocessed dataset: 25000 samples, 30 features. Positive class ratio: 0.0197
+2026-09-17 19:46:14 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 19:46:15 [INFO] TrustFed: Synthetic demo dataset generated with 500 records (10 fraud samples, 490 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:46:15 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-17 19:46:18 [INFO] TrustFed: Loaded Real Kaggle Dataset: 1000 samples (492 real fraud cases, 508 legitimate transactions).
+2026-09-17 19:46:18 [INFO] TrustFed: Synthetic demo dataset generated with 200 records (4 fraud samples, 196 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:46:18 [INFO] TrustFed: Preprocessed dataset: 200 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 19:46:18 [INFO] TrustFed: Synthetic demo dataset generated with 500 records (10 fraud samples, 490 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:46:18 [INFO] TrustFed: Preprocessed dataset: 500 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 19:46:18 [INFO] TrustFed: Bank 1 assigned 160 samples (0.00% fraud ratio).
+2026-09-17 19:46:18 [INFO] TrustFed: Bank 2 assigned 136 samples (0.00% fraud ratio).
+2026-09-17 19:46:18 [INFO] TrustFed: Bank 3 assigned 27 samples (33.33% fraud ratio).
+2026-09-17 19:46:18 [INFO] TrustFed: Bank 4 assigned 24 samples (4.17% fraud ratio).
+2026-09-17 19:46:19 [INFO] TrustFed: Bank 5 assigned 153 samples (0.00% fraud ratio).
+2026-09-17 19:46:19 [INFO] TrustFed: Synthetic demo dataset generated with 300 records (6 fraud samples, 294 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:46:19 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 19:46:21 [INFO] TrustFed: Synthetic demo dataset generated with 100 records (2 fraud samples, 98 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 19:46:21 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-17 19:46:24 [INFO] TrustFed: Loaded Real Kaggle Dataset: 25000 samples (492 real fraud cases, 24508 legitimate transactions).
+2026-09-17 19:46:24 [INFO] TrustFed: Preprocessed dataset: 25000 samples, 30 features. Positive class ratio: 0.0197
+2026-09-17 19:50:23 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 19:50:26 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-17 19:50:26 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 19:50:29 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-17 20:02:05 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-17 20:02:07 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 20:02:10 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-17 20:22:22 [INFO] TrustFed: System state and database records reset.
+2026-09-17 20:23:00 [INFO] TrustFed: System state and database records reset.
+2026-09-17 20:23:38 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-17 20:23:40 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 20:23:43 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-17 20:26:08 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 20:26:11 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-17 20:26:15 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 20:26:17 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-17 20:27:06 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 20:27:07 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 20:27:07 [INFO] TrustFed: Synthetic demo dataset generated with 500 records (10 fraud samples, 490 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 20:27:07 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-17 20:27:09 [INFO] TrustFed: Loaded Real Kaggle Dataset: 1000 samples (492 real fraud cases, 508 legitimate transactions).
+2026-09-17 20:27:09 [INFO] TrustFed: Synthetic demo dataset generated with 200 records (4 fraud samples, 196 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 20:27:09 [INFO] TrustFed: Preprocessed dataset: 200 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 20:27:09 [INFO] TrustFed: Synthetic demo dataset generated with 500 records (10 fraud samples, 490 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 20:27:09 [INFO] TrustFed: Preprocessed dataset: 500 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 20:27:09 [INFO] TrustFed: Bank 1 assigned 160 samples (0.00% fraud ratio).
+2026-09-17 20:27:09 [INFO] TrustFed: Bank 2 assigned 136 samples (0.00% fraud ratio).
+2026-09-17 20:27:09 [INFO] TrustFed: Bank 3 assigned 27 samples (33.33% fraud ratio).
+2026-09-17 20:27:09 [INFO] TrustFed: Bank 4 assigned 24 samples (4.17% fraud ratio).
+2026-09-17 20:27:09 [INFO] TrustFed: Bank 5 assigned 153 samples (0.00% fraud ratio).
+2026-09-17 20:27:09 [INFO] TrustFed: Synthetic demo dataset generated with 300 records (6 fraud samples, 294 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 20:27:09 [INFO] TrustFed: Preprocessed dataset: 300 samples, 10 features. Positive class ratio: 0.0200
+2026-09-17 20:27:09 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-17 20:27:10 [INFO] TrustFed: Synthetic demo dataset generated with 100 records (2 fraud samples, 98 legitimate) -> C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\processed\demo_data.csv
+2026-09-17 20:27:10 [INFO] TrustFed: Loading real Kaggle Credit Card dataset from C:\Users\PRIYA T\OneDrive\Music\Documents\TrustFed AI\data\raw\creditcard.csv...
+2026-09-17 20:27:11 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-17 20:27:12 [INFO] TrustFed: Loaded Real Kaggle Dataset: 25000 samples (492 real fraud cases, 24508 legitimate transactions).
+2026-09-17 20:27:12 [INFO] TrustFed: Preprocessed dataset: 25000 samples, 30 features. Positive class ratio: 0.0197
+2026-09-17 20:27:14 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-18 09:26:50 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-18 09:26:57 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
+2026-09-18 09:26:57 [INFO] TrustFed: Successfully connected to MongoDB database 'trustfed_db' at mongodb://localhost:27017/
+2026-09-18 09:27:00 [INFO] TrustFed: Starting TrustFed Flask Backend Server on 0.0.0.0:5000...
